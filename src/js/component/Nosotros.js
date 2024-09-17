@@ -1,5 +1,5 @@
 import React from "react";
-import misionBG from '../../img/misionBG.webp';
+import misionBG from '../../img/misionBG.png';
 
 const Nosotros = () => {
   return (

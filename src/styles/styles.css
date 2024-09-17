@@ -1,0 +1,30 @@
+/* CSS para efecto de hover en los cards de testimonios */
+.testimonial-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.post {
+    overflow: hidden; /* Asegura que el overlay no se salga del contenedor */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave al efecto hover */
+}
+
+.post img {
+    transition: transform 0.3s ease-in-out; /* También añade una transición suave a la imagen */
+}
+
+.post:hover img {
+    transform: scale(1.05); /* Hace que la imagen se agrande un poco al hacer hover */
+}
+
+.post .overlay {
+    transition: opacity 0.3s ease; /* Añade una transición suave para la opacidad */
+}
+
+.post:hover .overlay {
+    opacity: 1; /* Hace que el overlay sea completamente visible al hacer hover */
+}
